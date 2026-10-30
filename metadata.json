@@ -1,0 +1,6 @@
+{
+  "name": "Ninja Shadows – Typing Adventure",
+  "description": "2D typing adventure combining martial sword, gun, and bow combat across 6 story levels, titan boss battles, mountain platforming, and 4-racer rooftop championships.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,17 +1,18 @@
-# Ninja Typing Race
+# Ninja Shadows – Typing Adventure
 
-## Main game (GitHub Pages)
-The main website is the standalone HTML/CSS/JavaScript game at the repository root:
-- `index.html`
-- `style.css`
-- `script.js`
-- `assets/`
+The repository root is the full React/Vite game. It includes Story Mode (6 levels), Race Mode, StoryCanvas, StoryHUD, and the mobile virtual controller.
 
-Open `index.html` directly in a browser, or visit the GitHub Pages site after deployment.
+The legacy standalone HTML version is preserved in `Ninja-Typing-Race/` and is not the GitHub Pages homepage.
 
-## Optional React/Vite version
-The previous React/Vite application has been preserved separately in `react-version/`.
-It is not the default GitHub Pages website. To work on it, open that folder and run its own npm commands.
+## Run locally
+```bash
+npm install
+npm run dev
+```
 
-## GitHub Pages
-The workflow in `.github/workflows/deploy.yml` publishes the repository-root static game.
+## Build
+```bash
+npm run build
+```
+
+GitHub Pages deploys the root React/Vite app from `dist/` using `.github/workflows/deploy.yml`.
